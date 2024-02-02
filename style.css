@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.allnav {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    position: fixed; 
+    z-index: 1;
+    background-color: #606060;
+    opacity: 0.5;
+
+}
+.menus {
+    margin-top: 25px;
+}
+.menus a {
+    text-decoration: none;
+    margin: 20px;
+    color: #FFFFFF;
+}
+.menus a:hover {
+    color: rgb(67, 2, 77);
+}
+.banner {
+    background-image: url(Images/top-bannerr.jpg);
+    height: 102vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bannerop {
+    background-color: #ea8aff;
+    opacity: 0.5;
+    height: 656px;
+    width: 100%;
+}
