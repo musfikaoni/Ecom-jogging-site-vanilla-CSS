@@ -63,14 +63,14 @@
 .card {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 10px;
-    margin: 15px;
+    margin: 10px;
     height: 400px;
     width: 50%;
     background-color: #f4d8f8;
 }
 .card img {
     height: auto;
-    width: 90%;  
+    width: 85%;  
 }
 #ed1 {
     margin-top: -25px;
@@ -121,7 +121,7 @@
 .card1 {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 10px;
-    margin: 15px;
+    margin: 10px;
     height: 400px;
     width: 50%;
     background-color: #f4d8f8;
@@ -164,7 +164,7 @@
 .card2 {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 10px;
-    margin: 15px;
+    margin: 10px;
     height: 400px;
     width: 50%;
     background-color: #f4d8f8;
@@ -177,7 +177,7 @@
 .card2 .wh2 {
     height: auto;
     width: 115%;
-    margin: 15px 0px 0px -20px;
+    margin: 19px 0px 0px -20px;
 }
 .card2 .wh3 {
     height: auto;
@@ -206,7 +206,7 @@
 .card3 {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 10px;
-    margin: 15px;
+    margin: 10px;
     height: 400px;
     width: 50%;
     background-color: #f4d8f8;
@@ -244,3 +244,60 @@
     margin-top: 60px;
 }
 /* headphone-section end */
+/* subscribe start */
+.allsub {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(239, 207, 253);
+    padding-top: 150px;
+}
+.sub-banner {
+    background-image: url(Images/sub-bg.jpg);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-size: 1160px;
+    margin-left: 97px;
+    border-radius: 10px;
+}
+.subop {
+    height: 68vh;
+    width: 86%;
+    background-color: #d86cff;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subop h2 {
+    color: rgb(47, 1, 64);
+    font-size: 30px;
+    word-spacing: 3px;
+}
+.subop h2, p {
+    margin-left: 4px;
+}
+.inp {
+    margin-top: 10px;
+}
+.tbl input {
+    font-size: 16px;
+    padding: 17px 30px;
+    width: 110%;
+    color: #491060;
+    background-color: #414141c6;
+    border: 1px solid #470b61;
+}
+.tbl button {
+    text-decoration: none;
+    border: none;
+    background-color: #660391;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: -18px;
+    padding: 13px 25px;
+    cursor: pointer;
+}
+/* subscribe end */
