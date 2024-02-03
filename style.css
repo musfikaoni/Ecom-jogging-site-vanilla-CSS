@@ -172,17 +172,17 @@
 .card2 .wh1 {
     height: auto;
     width: 90%;
-    margin-top: 50px;
+    margin: 50px 0px 0px 10px;
 }
 .card2 .wh2 {
     height: auto;
     width: 115%;
-    margin-top: 20px;
+    margin: 15px 0px 0px -20px;
 }
 .card2 .wh3 {
     height: auto;
     width: 70%;
-    margin-top: 50px;
+    margin: 50px 0px 0px 40px;
 }
 .card2 .wh4 {
     height: auto;
@@ -202,3 +202,45 @@
     margin-top: -9px;
 }
 /* watch-section end */
+/* headphone-section start */
+.card3 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+    margin: 15px;
+    height: 400px;
+    width: 50%;
+    background-color: #f4d8f8;
+}
+.card3 .hp1 {
+    height: auto;
+    width: 115%;
+    margin: 50px 0px 0px -15px;
+}
+.card3 .hp2 {
+    height: auto;
+    width: 155%;
+    margin: 35px 0px 0px -60px;
+}
+.card3 .hp3 {
+    height: auto;
+    width: 130%;
+    margin: 50px 0px 0px -45px;
+}
+.card3 .hp4 {
+    height: auto;
+    width: 80%;
+    margin: 40px 0px 0px 30px;
+}
+.alltxx1 {
+    margin-top: 47px;
+}
+.alltxx2 {
+    margin-top: 22px;
+}
+.alltxx3 {
+    margin-top: 39px;
+}
+.alltxx4 {
+    margin-top: 60px;
+}
+/* headphone-section end */
