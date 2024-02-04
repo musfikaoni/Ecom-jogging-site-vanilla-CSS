@@ -41,6 +41,80 @@
     height: 100vh;
     width: 100%;
 }
+.bannerop h2 {
+    padding: 130px 0px 10px 235px;
+    color: #2c023c;
+}
+.frm {
+    background-color: #800aab;
+    height: 400px;
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 15px;
+    padding: 20px 0px 10px 50px;
+}
+.inp1 label{
+    color: #000000;
+    margin-left: 15px;
+}
+.inn1 input {
+    /* height: 35px; */
+    width: 80%;
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+    color: #230331;
+    background-color: #f7f7f7;
+    font-size: 17px;
+    padding: 7px;
+}
+.inp2 label {
+    color: #000000;
+    margin-left: 15px;
+}
+.inp2 input {
+    width: 80%;
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+    color: #230331;
+    background-color: #f7f7f7;
+    font-size: 17px;
+    padding: 7px;
+}
+.inp3 label {
+    color: #000000;
+    margin-left: 15px;
+}
+.inp3 input {
+    width: 80%;
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+    color: #230331;
+    background-color: #f7f7f7;
+    font-size: 17px;
+    padding: 7px;
+}
+.inp4 input {
+    background-color: rgb(124, 80, 124);
+	margin: 10px 0px 0px 120px;
+	height: 40px;
+	width: 100px;
+	border-radius: 20px;
+	color: white;
+	font-weight: 700;
+	border: none;
+}
+.lthr p {
+    text-align: center;
+    color: rgb(12, 9, 22);
+    margin: 10px 0px 0px -65px;
+}
+.lthr a {
+    color: rgb(12, 9, 22);
+    margin: 5px 0px 0px 142px;
+}
 /* header end */
 /* dress-section start */
 .alldress {
@@ -70,7 +144,7 @@
 }
 .card img {
     height: auto;
-    width: 85%;  
+    width: 87%;  
 }
 #ed1 {
     margin-top: -25px;
@@ -129,23 +203,23 @@
 .card1 .sh1 {
     height: auto;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 42px;
 }
 .card1 .sh2 {
     height: auto;
     width: 140%;
-    margin: 50px 0px 0px -70px;
+    margin: 42px 0px 0px -70px;
     
 }
 .card1 .sh3 {
     height: auto;
     width: 118%;
-    margin-top: 50px;
+    margin-top: 42px;
 }
 .card1 .sh4 {
     height: auto;
     width: 92%;
-    margin-top: 30px;
+    margin-top: 22px;
 }
 .alltx1 {
     margin-top: 50px;
@@ -172,22 +246,22 @@
 .card2 .wh1 {
     height: auto;
     width: 90%;
-    margin: 50px 0px 0px 10px;
+    margin: 42px 0px 0px 10px;
 }
 .card2 .wh2 {
     height: auto;
     width: 115%;
-    margin: 19px 0px 0px -20px;
+    margin: 8px 0px 0px -20px;
 }
 .card2 .wh3 {
     height: auto;
     width: 70%;
-    margin: 50px 0px 0px 40px;
+    margin: 40px 0px 0px 40px;
 }
 .card2 .wh4 {
     height: auto;
     width: 105%;
-    margin-top: 40px;
+    margin-top: 29px;
 }
 .alltex1 {
     margin-top: 42px;
@@ -214,22 +288,22 @@
 .card3 .hp1 {
     height: auto;
     width: 115%;
-    margin: 50px 0px 0px -15px;
+    margin: 42px 0px 0px -15px;
 }
 .card3 .hp2 {
     height: auto;
     width: 155%;
-    margin: 35px 0px 0px -60px;
+    margin: 25px 0px 0px -60px;
 }
 .card3 .hp3 {
     height: auto;
     width: 130%;
-    margin: 50px 0px 0px -45px;
+    margin: 42px 0px 0px -45px;
 }
 .card3 .hp4 {
     height: auto;
     width: 80%;
-    margin: 40px 0px 0px 30px;
+    margin: 32px 0px 0px 30px;
 }
 .alltxx1 {
     margin-top: 47px;
@@ -246,7 +320,7 @@
 /* headphone-section end */
 /* subscribe start */
 .allsub {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-color: rgb(239, 207, 253);
     padding-top: 150px;
@@ -285,9 +359,9 @@
 .tbl input {
     font-size: 16px;
     padding: 17px 30px;
-    width: 110%;
+    width: 125%;
     color: #491060;
-    background-color: #414141c6;
+    background-color: #f3f2f2c6;
     border: 1px solid #470b61;
 }
 .tbl button {
@@ -296,8 +370,63 @@
     background-color: #660391;
     color: #ffffff;
     font-size: 16px;
-    margin-left: -18px;
+    margin-left: 12px;
     padding: 13px 25px;
     cursor: pointer;
 }
 /* subscribe end */
+/* footer start */
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #86778b;
+}
+.ftr {
+    height: 230px;
+    width: 100%;
+    background-color: #86778b;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer h3 {
+    padding: 30px 0px 0px 90px ;
+    color: #38024f;
+}
+.allf {
+    width: 85%;
+}
+.exftr {
+    display: flex;
+}
+.ft1 {
+    width: 33%;
+    display: flex;
+    padding: 20px 0px 0px 60px;
+}
+.ico {
+    font-size: 35px;
+    color: #38024f;
+}
+.ft1 p {
+    margin-left: 10px;
+    font-size: 17px;
+    color: #311b3c;
+}
+.ft1 a {
+    margin: 5px 0px 0px 10px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #311b3c;
+}
+.line {
+    margin-top: 70px;
+    height: 0.5px;
+    width: 100%;
+    background-color: #5d4960;
+}
+.last p {
+    text-align: center;
+    color: #24012d;
+    margin-top: -30px;
+}
+/* footer end */
